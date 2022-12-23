@@ -1,6 +1,6 @@
 <img align="right" alt="gif-gif" src="https://github.com/Rafael-MJ/Rafael-MJ/blob/main/gif.gif" height="100" width="100"/>
 
-![](https://readme-typing-svg.herokuapp.com/?font=Press+Start+10P&color=00ff9c&size=14&lines=Sistema+de+Aplicativo+de+Banco.;+Desenvolvido+para+a+Fábrica+de+Projetos+II!)
+![](https://readme-typing-svg.herokuapp.com/?font=Press+Start+10P&color=00ff9c&size=14&lines=Gerenciador+de+senhas.;+Desenvolvido+para+Linguagens+de+Programação!)
 
 <br/> 
 
