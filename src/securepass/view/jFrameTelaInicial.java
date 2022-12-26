@@ -2,6 +2,7 @@ package securepass.view;
 
 import java.awt.Color;
 import javax.swing.ImageIcon;
+import securepass.model.InfoManager;
 
 public class jFrameTelaInicial extends javax.swing.JFrame {
 
@@ -9,6 +10,7 @@ public class jFrameTelaInicial extends javax.swing.JFrame {
         ImageIcon ic = new ImageIcon(getClass().getResource("/securepass/images/logo.png"));
         this.setIconImage(ic.getImage());
         initComponents();
+        ver.setText(new InfoManager().getVersion());
     }
 
     @SuppressWarnings("unchecked")
@@ -87,7 +89,7 @@ public class jFrameTelaInicial extends javax.swing.JFrame {
         ver.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         ver.setForeground(new java.awt.Color(255, 255, 255));
         ver.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ver.setText("v0.0.1");
+        ver.setText("VERSION");
         backPanel.add(ver, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 100, -1));
 
         gotoCreate.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N

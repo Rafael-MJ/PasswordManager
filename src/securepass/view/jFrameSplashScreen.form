@@ -88,11 +88,11 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="v0.0.1"/>
+            <Property name="text" type="java.lang.String" value="VERSION"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="190" y="250" width="60" height="-1"/>
+              <AbsoluteConstraints x="170" y="250" width="110" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>

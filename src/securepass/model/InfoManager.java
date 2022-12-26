@@ -7,7 +7,13 @@ public class InfoManager {
 
     DAO dao = new DAO();
     private static String SELECTED_TYPE = "", SELECTED_TITLE = "";
+    private final static String VER = "v1.0";
     private static int SELECTED_PASSID;
+    
+    public String getVersion(){
+        
+        return VER;
+    }
     
     public static int getSelectedPassID(){
         

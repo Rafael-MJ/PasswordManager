@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+import securepass.model.InfoManager;
 
 public class jFrameSplashScreen extends javax.swing.JFrame {
 
@@ -20,6 +21,7 @@ public class jFrameSplashScreen extends javax.swing.JFrame {
         
         ImageIcon back = new ImageIcon(getClass().getResource("/securepass/images/back.jpg"));
         initComponents();
+        ver.setText(new InfoManager().getVersion());
         back.setImage(back.getImage().getScaledInstance(back.getIconWidth() + 100, back.getIconHeight() + 100, 1));
         backLogo.setIcon(back);
         loadingBar();
@@ -94,8 +96,8 @@ public class jFrameSplashScreen extends javax.swing.JFrame {
         ver.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         ver.setForeground(new java.awt.Color(255, 255, 255));
         ver.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ver.setText("v0.0.1");
-        background.add(ver, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 250, 60, -1));
+        ver.setText("VERSION");
+        background.add(ver, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 250, 110, -1));
 
         SecurePass.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         SecurePass.setForeground(new java.awt.Color(255, 255, 255));

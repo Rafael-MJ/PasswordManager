@@ -1,6 +1,7 @@
 package securepass.view;
 
 import javax.swing.ImageIcon;
+import securepass.model.InfoManager;
 import securepass.model.UserInfo;
 
 public class jFrameMenu extends javax.swing.JFrame {
@@ -9,6 +10,7 @@ public class jFrameMenu extends javax.swing.JFrame {
         ImageIcon ic = new ImageIcon(getClass().getResource("/securepass/images/logo.png"));
         this.setIconImage(ic.getImage());
         initComponents();
+        ver.setText(new InfoManager().getVersion());
     }
     
     @SuppressWarnings("unchecked")
@@ -42,7 +44,7 @@ public class jFrameMenu extends javax.swing.JFrame {
         ver.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         ver.setForeground(new java.awt.Color(255, 255, 255));
         ver.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ver.setText("v0.0.1");
+        ver.setText("VERSION");
         backPanel.add(ver, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 80, -1));
 
         SecurePass.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
